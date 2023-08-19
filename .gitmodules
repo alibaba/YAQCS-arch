@@ -1,0 +1,4 @@
+[submodule "simulator/qemu"]
+	path = simulator/qemu
+	url = https://github.com/T-head-Semi/qemu.git
+	branch = yaqcs-xuantie

@@ -1,0 +1,1 @@
+python3 /yaqcs-arch/simulator/sim.py $@

@@ -1,0 +1,11 @@
+{
+    "classical_backend": "qemu",
+    "qemu_params": {
+        "cpu": "c908v",
+        "machine": "smarth",
+        "bios": "none",
+        "nographic": true
+    },
+    "quantum_backend": "qutip",
+    "quantum_backend_params": []
+}
