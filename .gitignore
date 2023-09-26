@@ -1,3 +1,9 @@
 .DS_Store
 .vscode/*
 cpf.tar.gz
+/.public_sync/
+
+
+# Add extra ignores for the public repo here
+/public_sync/
+/compiler/
