@@ -87,14 +87,14 @@ def single_qubit_gate(params):
 
 def two_qubit_gate(params):
     """
-    Generate single qubit gates from pulse parameters. Used in gate-level
+    Generate two qubit gates from pulse parameters. Used in gate-level
     simulation with `qutip_qip`.
 
     Args:
         params(List[double]): List of parameters specifying a 2q gate operation.
 
     Returns:
-        numpy.array: Compiled single qubit gate as a 4x4 unitary matrix.
+        numpy.array: Compiled two qubit gate as a 4x4 unitary matrix.
     """
     if params[0] == 0:
         res = np.diag([1, 1, 1, np.exp(1j * params[1])])
